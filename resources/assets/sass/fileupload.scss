@@ -1,0 +1,33 @@
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+
+  &-input {
+    background: inherit;
+    border: 1px solid gray;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    padding: 3.5rem;
+  }
+
+  &-button {
+    border: 1px solid gray;
+    border-radius: 0.4rem;
+  }
+}
+
+input[type="file"] {
+    display: flex;
+}
