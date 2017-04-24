@@ -37,3 +37,7 @@ Route::post('public', function () {
 $request = request()->file('image')->store('public');
   return back();
 });
+
+// use Illuminate\Http\File;
+
+// Storage::putFile('photos', new File('/path/to/photo'));

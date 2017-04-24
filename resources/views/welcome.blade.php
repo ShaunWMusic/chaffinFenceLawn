@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
         <link rel="stylesheet" href="/css/app.css">
         <title>Chaffin Fence & Lawn</title>
         <link rel="icon" href="{{ url('./img/logoidea5.png') }}">
@@ -20,6 +20,7 @@
           <a class="navbar-link font-size" href="{{ url('/') }}">Home</a>
           <a class="navbar-link font-size" href="{{ url('/about') }}">About</a>
           <a class="navbar-link font-size" href="{{ url('/casestudies') }}">Gallery</a>
+          <a class="navbar-link font-size" href="{{ url('tel:615-624-2400') }}">615-624-2400</a>
           <a class="button font-size" href="{{ url('tel:615-624-2400') }}">Let's Talk</a>
         </div>
       </nav>
@@ -31,7 +32,8 @@
           <a class="navbar-link hidden" id="displayHome" href="{{ url('/') }}">Home</a>
           <a class="navbar-link hidden" id="displayAbout" href="{{ url('/about') }}">About</a>
           <a class="navbar-link hidden" id="displayCasestudies" href="{{ url('/casestudies') }}">Gallery</a>
-          <a class="button hidden" id="displayLetstalk" href="{{ url('tel:615-624-2400') }}">Let's Talk</a>
+          <a class="navbar-link hidden" id="displayPhone" href="{{ url('tel:615-624-2400') }}">615-624-2400</a>
+          <a class="navbar-link button hidden" id="displayLetstalk" href="{{ url('tel:615-624-2400') }}">Let's Talk</a>
         </div>
       </nav>
     </section>
@@ -44,7 +46,6 @@
           If you want it done right and on time for less, then you have come to the right place!
         </h2>
         <a class="button hero-button" href="{{ url('tel:615-624-2400') }}">Call Now For Free Quote!</a>
-
       </div>
       </div>
     </section>
