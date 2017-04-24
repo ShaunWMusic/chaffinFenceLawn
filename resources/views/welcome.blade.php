@@ -14,8 +14,8 @@
 
     <section>
       {{-- desktop view --}}
-      <nav class="desktop navbar">
-        <h1 class="logo-header"><a href="{{ url('/') }}"><img src="{{ url('./img/logoidea5.png') }}" alt=""></a></h1>
+      <nav class="desktop navbar-desktop">
+        <div class="logo-header"><a href="{{ url('/') }}"><img src="{{ url('./img/logoidea5.png') }}" alt=""></a></div>
         <div>
           <a class="navbar-link font-size" href="{{ url('/') }}">Home</a>
           <a class="navbar-link font-size" href="{{ url('/about') }}">About</a>
@@ -25,10 +25,12 @@
         </div>
       </nav>
       {{-- mobile view --}}
-      <nav class="mobile navbar">
-        <h1 class="logo-header"><a href="{{ url('/') }}"><img src="{{ url('./img/logoidea5.png') }}" alt=""></a></h1>
-        <div class="mobile-dropdown">
+      <nav class="mobile">
+        <div class="navbar-mobile">
+          <div class="logo-header"><a href="{{ url('/') }}"><img src="{{ url('./img/logoidea5.png') }}" alt=""></a></div>
           <img class="icon margin-top" id="nav" src="{{ url('./img/icons/menubar.png') }}" alt="">
+        </div>
+        <div class="mobile-dropdown">
           <a class="navbar-link hidden" id="displayHome" href="{{ url('/') }}">Home</a>
           <a class="navbar-link hidden" id="displayAbout" href="{{ url('/about') }}">About</a>
           <a class="navbar-link hidden" id="displayCasestudies" href="{{ url('/casestudies') }}">Gallery</a>
